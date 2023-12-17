@@ -1,0 +1,44 @@
+﻿/* styles.css */
+.header {
+    background-color: #000000; /* Black background */
+    color: #FFFFFF; /* White text */
+    padding: 20px; /* Increased padding for the header */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navigation li {
+    margin-right: 30px; /* Increased margin between navigation items */
+    transition: transform 0.3s ease; /* Smooth transition for size change */
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #FFFFFF; /* White text */
+    display: block; /* Ensures proper hover effect */
+}
+
+.navigation li:hover {
+    transform: scale(1.1); /* Enlarge on hover */
+}
+
+.navigation a:hover {
+    color: #00FF00; /* Green on hover */
+}
+
+.navigation li.active a {
+    color: #00FF00; /* Green color for active page */
+}

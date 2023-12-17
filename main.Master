@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>
+<head runat="server">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="header">
+            <div class="logo">
+                MUT
+            </div>
+            <div class="navigation">
+                <ul>
+                    <li><a href="Default.aspx">Home</a></li>
+                    <li><a href="Courses.aspx">Courses</a></li>
+                    <li><a href="ApplicationProcess.aspx">Application Process</a></li>   
+                    <li><a href="AboutUs.aspx">About Us</a></li>
+                    <li><a href="ContactUs.aspx">Contact Us</a></li>
+                    <li><a href="Login.aspx">Login/Sign Up</a></li>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
+

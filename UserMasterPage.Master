@@ -1,0 +1,36 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="UserMasterPage.master.cs" Inherits="onlineschoolapplication.UserMasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="header">
+            <div class="logo">
+                MUT
+            </div>
+            <div class="navigation">
+                <ul>
+                    <li><a href="userHome.aspx">Home</a></li>
+                    <li><a href="yourCourses.aspx">View Courses</a></li>
+                    <li><a href="documents.aspx">Submit Documents</a></li>   
+                    <li><a href="Notifications.aspx">Notifications</a></li>
+                    <li><a href="MyProfile.aspx">My Profile</a></li>
+                    <li><a href="Login.aspx">Sign Out</a></li>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

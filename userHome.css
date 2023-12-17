@@ -1,0 +1,88 @@
+﻿body {
+    background-color: #000000; /* Black background */
+    color: #FFFFFF; /* White text */
+    font-family: 'Arial', sans-serif;
+}
+
+.home-container {
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.box {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #033D65;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
+}
+
+.labels-box, .application-box {
+    width: 97%; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the box */
+    box-sizing: border-box;
+}
+
+.bubble-label {
+    display: inline-block;
+    padding: 8px 16px;
+    margin: 8px;
+    font-size: 16px;
+    background-color: #24970A; /* Green background */
+    border-radius: 20px;
+}
+
+.labels-box {
+    text-align: center; /* Center the bubble labels */
+}
+
+.application-box {
+    text-align: center;
+    background-color: #033D65;
+}
+
+.course-box {
+    width: 90%; /* Specify the width for centering */
+    margin: 0 auto; /* Center the course-box */
+    text-align: left;
+    padding: 20px;
+    background-color: #0566A7; /* Blue background */
+    color: #FFFFFF; /* White text */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    margin-bottom: 20px;
+    max-width: 100%; /* Adjust the max-width as needed */
+    box-sizing: border-box;
+}
+
+    .course-box h3 {
+        color: #FFD700; /* Gold text */
+    }
+
+    .course-box p {
+        margin: 10px 0;
+    }
+
+    .course-box strong {
+        font-weight: bold;
+    }
+
+.new-course-button {
+    display: inline-block;
+    padding: 12px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #24970A; /* Green background */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+    .new-course-button:hover {
+        background-color: #0566A7;
+    }

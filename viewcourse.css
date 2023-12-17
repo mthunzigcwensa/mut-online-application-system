@@ -1,0 +1,91 @@
+﻿/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+/* Banner Styling */
+.banner {
+    position: relative;
+    text-align: center;
+}
+
+    .banner img {
+        width: 100%;
+        height: auto;
+    }
+
+    .banner h1 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fff;
+        font-size: 2em;
+    }
+
+/* Description Box Styling */
+.description-box {
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+    .description-box p {
+        margin-bottom: 15px;
+    }
+
+    .description-box a {
+        display: inline-block;
+        padding: 10px 15px;
+        background-color: #007bff;
+        color: #fff;
+        text-decoration: none;
+    }
+
+/* Requirements Box Styling */
+.requirements-box {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+    .requirements-box h2 {
+        color: #333;
+        margin-bottom: 15px;
+    }
+
+    .requirements-box ul {
+        list-style-type: none;
+    }
+
+    .requirements-box li {
+        margin-bottom: 8px;
+    }
+
+/* Application Box Styling */
+.application-box {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.submit-button {
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.application-box p {
+    margin-top: 10px;
+    color: #333;
+}
